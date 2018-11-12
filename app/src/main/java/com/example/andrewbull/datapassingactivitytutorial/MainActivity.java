@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity implements Button.OnClickLis
     @Override
     public void onClick(View view) {
         if(view == goToSecondActivityButton) {
+            //Change is the only constant
+            // another change
+            // A third change
+            // a fourth change
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
             intent.putExtra("text_value", editText.getText().toString());
             startActivity(intent);
