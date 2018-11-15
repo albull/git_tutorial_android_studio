@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements Button.OnClickLis
             // another change
             // A third change
             // a fourth change
+            // another one
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
             intent.putExtra("text_value", editText.getText().toString());
             startActivity(intent);
